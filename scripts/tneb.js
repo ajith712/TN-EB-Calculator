@@ -216,7 +216,7 @@ function jsCalUnitButton(){
     else{
         alert('Kindy Enter the valid input!!!,Current Month Reading Cannot be Less Than The Previous Bill Reading!!!');
     }
-    
+    document.querySelector('.cal-btn-checked-show-text').classList.add('cal-btn-checked-show-text-click');
 }
 
 jsCalBillBtn.addEventListener("click",function (){
@@ -227,7 +227,6 @@ function jsCalBillButton(){
     const getUnitValue = jsCalUnitButton();
     inputUnits.value = `${getUnitValue}`;
     jsCalButton();
-    document.querySelector('.cal-btn-checked-show-text').classList.add('cal-btn-checked-show-text-click');
     location.href = 'index.html#eb-amt-id';
 }
 
