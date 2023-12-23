@@ -1,0 +1,16 @@
+.high-tension-working-con{
+    margin-top: 200px;
+    margin-left: 200px;
+    padding: 20px;
+    font-size: 35px;
+}
+
+@media (max-width: 600px) {
+    .high-tension-working-con{
+        margin-top: 200px;
+        margin-left: 100px;
+        padding: 20px;
+        font-size: 35px;
+    }
+    
+}

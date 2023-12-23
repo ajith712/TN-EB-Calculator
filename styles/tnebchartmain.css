@@ -1,0 +1,53 @@
+.low-tension-chart-con, .high-tension-chart-con{
+    margin-top: 130px;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.high-tension-chart-con{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+
+.low-tension-chart-con img{
+    border-top: 1px solid black;
+    margin-bottom: 80px;
+}
+
+.high-tension-chart-con img{
+    border-bottom: 2px solid black;
+}
+
+.download-link{
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 600px) {
+    .low-tension-chart-con{
+        margin-top: 180px;
+    }
+    .low-tension-chart-con, .high-tension-chart-con{
+        font-size: 35px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .download-link{
+        padding-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 30px;
+    }
+}
+

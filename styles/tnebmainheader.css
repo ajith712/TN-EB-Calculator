@@ -1,0 +1,114 @@
+.header, .eb-tariff-chart-header, .tnebhigh-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    padding-left: 30px;
+    padding-right: 30px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 70px;
+    border-bottom: 1px solid gray;
+    background-color: white;
+}
+
+.menu-bar{  
+    width: 180px;
+    display: flex;
+    font-size: 23px;
+}
+.menu-bar-checked {
+   display: none;
+}
+
+.menu-icon-checked{
+    display: none;
+}
+.close-bar{
+    display: none;
+}
+.close-bar-checked{
+    width: 180px;
+    display: flex;
+    justify-content: flex-end;
+    text-indent: 3px;
+    font-size: 30px;
+}
+
+
+
+.drop-down-menu, .tariff-drop-down-menu, .high-page-drop-down-menu{
+    border: 1px solid black;
+    position: fixed;
+    top: 70px;
+    left: 0px;
+}
+.menu-bar-link-con{
+    padding-top: 15px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
+    background-color: lightgray;
+    display: none;
+}
+
+.menu-bar-link-con-checked{
+    display: flex;
+}
+
+
+.menu-bar-link{
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    color: black;
+    border-bottom: 1px solid gray;
+}
+
+.header-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.logo{
+    width: 150px;
+    display: flex;
+    justify-content: flex-end;
+}
+.tneblogo{
+    width: 60px;
+}
+
+@media (max-width: 600px) {
+    .header, .eb-tariff-chart-header, .tnebhigh-header{
+        padding-left: 2px;
+        padding-right: 2px;
+        height: 150px;
+    }
+    .menu-bar{  
+        font-size: 43px;
+        width: 100px;
+        justify-content: flex-start;
+    }
+    .drop-down-menu, .tariff-drop-down-menu, .high-page-drop-down-menu{
+        top: 150px;
+    }
+    .close-bar-checked{
+        width: 100px;
+        display: flex;
+        justify-content: flex-end;
+        text-indent: 3px;
+        font-size: 30px;
+    }
+    .logo{
+        width: 100px;
+    }
+    .tneblogo{
+        width: 80px;
+    }
+}
+

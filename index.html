@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=500, initial-scale=1" />
+        <title>TN-EB Calculator</title>
+        <link rel="stylesheet" href="styles/tnebmainheader.css">
+        <link rel="stylesheet" href="styles/tnebmain.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        
+
+        <div class="header">
+        </div>
+        <div class="drop-down-menu">
+        </div>
+
+            <div class="cal-with-units">
+                <p class="cal-with-units-title">To Calculate Amount With 
+                    Reading Units.</p>
+                <div class="units-input-container" id="eb-amt-id">
+                    <label class="units-label">No Of Units : </label>
+                    <input type="Number" class="units-input">
+                </div>
+                <div class="cal-btn-con">
+                    <button class="cal-btn">Calculate</button>
+                </div>
+                <div class="eb-amt-con">
+                    <span class="eb-word">Your Electricity Bill 💵 : ₹</span>
+                    <span class="eb-amt"></span>
+                    <span class="emoji"></span>
+                </div>
+                <span class="free-100-units"></span>
+                <div class="bill-chart-con">
+                    <table class="bill-chart-table"></table>
+                </div>
+                <p><span class="save-eb">Save Electricity !!!</span></p>
+            </div>
+            
+            <div class="to-find-units">
+                <p class="to-find-units-title">If You don't know the Units, Calculate the Units.</p>
+                <div class="units-input-container">
+                    <label class="units-label">Current Month Reading : </label>
+                    <input type="Number" class="units-input units-input-cur-read">
+                </div>
+                <div class="units-input-container">
+                    <label class="units-label">Previous Bill Reading : </label>
+                    <input type="Number" class="units-input units-input-pre-read">
+                </div>
+                <div class="cal-btn-con">
+                    <button class="cal-btn cal-unit-btn">Calculate Units</button>
+                </div>
+                <div class="units-input-container your-reading-container">
+                    <label class="units-label">Your Reading ⚡: </label>
+                    <span class="calculated-units"></span>
+                </div>
+                <div class="cal-btn-con units-side-cal-btn-con">
+                    <button class="cal-btn js-cal-bill-btn">Calculate Bill Amount</button>
+                </div>
+                <div class="cal-btn-checked-show-text">Now your Bill Amount Generated,Check top 👆</div>
+            </div>
+
+        <div class="about-para-con">
+            <p class="about-title" id="about">About : </p>
+            <p class="about-para">Hello visitors, Iam AJITH ,This is to calculate the ELECTRICITY BILL as per the Tamilnadu Government 
+                tarrif plans,This is very helpfull to check your eb bill at your end every month,if you know the units 
+                consumed,you'll calculate the bill directly by mention the units in the first box mention as 
+                (To Calculate Amount With Reading Units) but if you don't know the units consumed,find the units 
+                in the second box mention as (If You don't know the Units, Calculate the Units) by inputing a last bill Reading
+                and current month reading,This is very usefull to tracking your EB units and amount everytime you want.Note : 
+                This is applicable to (LOW CONSUMABLE PLACE such as) Home.If you want to check for High Consumable Places 
+                click the menu option on the top and select check for Bill Check For High Consume.
+             </p>
+        </div>
+        <script src="scripts/tneb.js" type="module"></script>
+    </body>
+</html>
