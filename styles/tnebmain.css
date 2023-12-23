@@ -149,13 +149,16 @@ input{
 
 @media (max-width: 600px) {
     .cal-with-units,.to-find-units{
-        margin-top: 160px;
+        margin-top: 110px;
         padding-left: 3px;
         padding-right: 1px;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
         background-color: white;
     }
     .units-label{
         font-size: 20px;
     }
+    .cal-with-units-title, .eb-word, .eb-amt, .to-find-units-title{
+    font-size: 25px;
+        }
 }
