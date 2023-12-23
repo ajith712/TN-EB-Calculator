@@ -4,7 +4,7 @@
     padding-left: 20px;
     padding-right: 25px;
     padding-bottom: 40px;
-    background-color: white;
+    border: 10px solid #a8eb12;
 }
 .cal-with-units-title, .eb-word, .eb-amt, .to-find-units-title{
     font-size: 32px;
