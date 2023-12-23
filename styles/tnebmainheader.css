@@ -88,7 +88,7 @@
     .header, .eb-tariff-chart-header, .tnebhigh-header{
         padding-left: 2px;
         padding-right: 2px;
-        height: 100px;
+        height: 80px;
     }
     .menu-bar{  
         font-size: 43px;
@@ -96,7 +96,7 @@
         justify-content: flex-start;
     }
     .drop-down-menu, .tariff-drop-down-menu, .high-page-drop-down-menu{
-        top: 150px;
+        top: 81px;
     }
     .close-bar-checked{
         width: 100px;
@@ -110,6 +110,9 @@
     }
     .tneblogo{
         width: 80px;
+    }
+    .header-title{
+    font-size: 24px;
     }
 }
 
