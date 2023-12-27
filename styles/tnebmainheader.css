@@ -12,7 +12,8 @@
     left: 0;
     height: 70px;
     border-bottom: 1px solid gray;
-    background: linear-gradient(to right top, #a8eb12, #00bf72, #004d7a, #008793);
+    background-color: white;
+    /*background: linear-gradient(to right top, #a8eb12, #00bf72, #004d7a, #008793);*/
 }
 
 .menu-bar{  
@@ -88,10 +89,11 @@
     .header, .eb-tariff-chart-header, .tnebhigh-header{
         padding-left: 2px;
         padding-right: 2px;
-        height: 80px;
+        height: 77px;
     }
     .menu-bar{  
         font-size: 43px;
+        padding-top: 2px;
         width: 100px;
         justify-content: flex-start;
     }
