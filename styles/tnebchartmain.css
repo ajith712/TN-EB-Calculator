@@ -1,6 +1,6 @@
 .low-tension-chart-con, .high-tension-chart-con{
     margin-top: 130px;
-    font-size: 25px;
+    font-size: 35px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
@@ -38,7 +38,7 @@
         margin-top: 180px;
     }
     .low-tension-chart-con, .high-tension-chart-con{
-        font-size: 35px;
+        font-size: 20px;
         padding-left: 10px;
         padding-right: 10px;
     }
