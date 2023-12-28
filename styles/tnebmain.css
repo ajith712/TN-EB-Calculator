@@ -8,7 +8,6 @@
 .cal-with-units-title, .eb-word, .eb-amt, .to-find-units-title{
     font-size: 28px;
     font-family: 'Times New Roman', Times, serif;
-    text-decoration: underline;
 }
 .units-input-container{
     display: flex;
@@ -106,18 +105,19 @@ input{
 
 
 .cal-unit-btn{
-    background-color: rgb(206, 206, 37);
+    background-color: rgb(218, 219, 208);
 }
 .js-cal-bill-btn{
     display: none;
     width: 250px;
-    background-color:chocolate
+    background-color: rgb(232, 225, 235);
 }
 .js-cal-bill-btn-check{
     display: initial;
 }
 .calculated-units{
-    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 29px;
 }
 
 
@@ -148,33 +148,33 @@ input{
 
 @media (max-width: 600px) {
     .cal-with-units-title,.to-find-units-title{
-    font-size: 24px;
+    font-size: 20px;
     }
     .cal-with-units,.to-find-units{
-        margin-top: 95px;
-        padding-left: 3px;
-        padding-right: 1px;
+        margin-top: 78px;
+        padding-left: 5px;
+        padding-right: 3px;
         padding-bottom: 20px;
         background-color: white;
     }
     .units-label{
-        font-size: 20px;
+        font-size: 18px;
     }
-    .cal-with-units-title, .eb-word, .eb-amt, .to-find-units-title{
-    font-size: 25px;
+    .eb-word, .eb-amt{
+    font-size: 23px;
     }
     .free-100-units{
     font-size: 19px;
     }
     .table-cell{
-    font-size: 20px;
+    font-size: 19px;
     }
     .about-title{
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: underline;
     }
     .about-para{
-    font-size: 19px;
+    font-size: 15px;
     color: rgb(49, 44, 44);
     background-color: lightgoldenrodyellow;
     }
