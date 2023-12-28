@@ -166,8 +166,9 @@ function calculateAmt(ebUnits){
             
     document.querySelector('.eb-amt').innerHTML = `${ebAmt.toFixed(2)}`;
 
-    const jsEmoji = document.querySelector('.emoji');
+    //const jsEmoji = document.querySelector('.emoji');
 
+    /*
     if(ebAmt<=100){
         jsEmoji.innerHTML =  `&nbsp;&nbsp;😉✌️`; 
     }
@@ -179,7 +180,7 @@ function calculateAmt(ebUnits){
     }
     else if(ebAmt>1000){
         jsEmoji.innerHTML = `&nbsp;&nbsp;😅🤨`
-    }
+    }*/
     
 
     let billChartDataHTML = '';
@@ -227,7 +228,11 @@ function jsCalBillButton(){
     const getUnitValue = jsCalUnitButton();
     inputUnits.value = `${getUnitValue}`;
     jsCalButton();
-    location.href = 'index.html#eb-amt-id';
+    window.scrollTo({
+     top: 100,
+     left: 0,
+     behavior: "smooth",
+     });
 }
 
 //Header
