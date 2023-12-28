@@ -63,7 +63,7 @@ function calculateAmt(ebUnits){
             alert('Kindly Enter a Valid Reading Units');
             freeUnits.classList.remove('free-100-units-check');
             document.querySelector('.bill-chart-con').classList.add("bill-chart-con-dont-want");
-            document.querySelector('.cal-btn-checked-show-text').classList.add('cal-btn-checked-show-text-click');
+            document.querySelector('.cal-btn-checked-show-text').classList.remove('cal-btn-checked-show-text-click');
             document.querySelector('.save-eb').classList.remove('save-eb-want');
         }
         else if(ebUnits > 0 && ebUnits <=100){
