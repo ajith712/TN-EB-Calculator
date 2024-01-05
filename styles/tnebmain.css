@@ -21,9 +21,10 @@
     font-family:'Times New Roman', Times, serif;
 }
 
+/*
 input{
     font-size: 16px !important;
-}
+}*/
 .units-input{
     padding: 10px;
     border: 1px solid #1591d8;
@@ -157,8 +158,13 @@ input{
         padding-bottom: 20px;
         background-color: white;
     }
+    .to-find-units{
+        padding-top: 5px;
+        padding-right: 4px;
+    }
     .units-label{
-        font-size: 18px;
+        font-size: 15px;
+        height: 16px;
     }
     .eb-word, .eb-amt{
     font-size: 23px;
