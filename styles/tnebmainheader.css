@@ -55,7 +55,7 @@
     row-gap: 22px;
     background-color: lightgray;
     display: none;
-    background: linear-gradient(to right top, #a8eb12, #00bf72, #a8eb12);
+    background: white;
 }
 
 .menu-bar-link-con-checked{
